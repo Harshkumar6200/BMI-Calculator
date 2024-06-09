@@ -29,7 +29,8 @@ def main():
     height = st.number_input("Height (m)")
     if st.button("Calculate BMI"):
         bmi,category = bmi_calculator(height,weight)
-        st.write(f"Your BMI is {bmi}.2f and Your Category is {category}")
+        # st.write(f"Your BMI is {bmi}.2f and Your Category is {category}")
+        st.write(f"Your BMI is {bmi:.2f} and Your Category is {category}")
 if __name__ == "__main__":
     main()  
 
