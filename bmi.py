@@ -89,23 +89,6 @@ if __name__ == "__main__":
 
 
 
-# import streamlit as st
-# def main():
-#     st.title("BMI Calculator")
-#     st.write("Please enter your weight in kilograms (kg) and your height in meters (m).")
-#     weight = st.number_input("Weight (kg)")
-#     height = st.number_input("Height (m)")
-#     if st.button("Calculate BMI"):
-#         bmi, category = bmi_calculator(height, weight)
-#         st.write(f"Your BMI is {bmi:.2f}. You are in the '{category}' category.")
-
-# if __name__ == "__main__":
-#     main()
-
-
-
-
-
 
 
 
